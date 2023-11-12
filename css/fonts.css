@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Amplify";
+    src: url("fonts/Amplify_PersonalUseOnly.ttf");
+}
+
+@font-face {
+    font-family: "AvantGardeLT";
+    src: url("fonts/AvantGardeLT-ExtraLight.otf");
+}
+
+@font-face {
+    font-family: "Socialico";
+    src: url("fonts/Socialico.ttf");
+}
+
+@font-face {
+    font-family: "Lato-Regular";
+    src: url("fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lato-Semibold";
+    src: url("fonts/Lato-Semibold.ttf");
+}
+
+@font-face {
+    font-family: "Lato-Thin";
+    src: url("fonts/Lato-Thin.ttf");
+}
+
+@font-face {
+    font-family: "Lato-Bold";
+    src: url("fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src: url("fonts/MyriadPro-Regular.otf");
+}

@@ -1,0 +1,63 @@
+.servicios {
+    background-color: #f7f7f7;
+    font-family: Lato-Semibold;
+    color: gray;
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.servicios:not(:first-child) {
+    margin-top: 20px;
+}
+
+.servcontent {
+    display: flex;
+    margin: 0px auto;
+    width: 200px;
+}
+
+
+.servicon i {
+    width: 30px;
+    height: 30px;
+    background-color: #65bf95;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin-top: 15px;
+    color: white;
+}
+
+.servtext {
+    font-family: Lato-Regular;
+    color: gray;
+}
+
+.servtext h3 {
+    font-weight: bolder;
+}
+
+.servtext a {
+    text-decoration: none;
+    color: gray;
+}
+
+@media (min-width: 768px) {
+    .servicios {
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin: 0px auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .servicios {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

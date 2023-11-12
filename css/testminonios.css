@@ -1,0 +1,56 @@
+.testimonios{
+    background-color: white;
+    padding: 50px 0;
+}
+
+.testimonios-contenedor{
+    text-align: center;
+    padding: 10px;
+    font-family: Lato-Thin;
+}
+
+.testimonios-text h2{
+    font-size: 30px;
+}
+
+.testimonios-text p{
+    font-size: 20px;
+    color: gray;
+}
+
+.puntos{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.puntos span{
+    width: 10px;
+    height: 10px;
+    background-color: #dadada;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.puntos span:nth-child(1){
+    background-color: #bebebe;
+}
+
+
+
+.autor{
+    font-family: Lato-Semibold;
+    font-size: 6px;
+    color: black;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    .testimonios-contenedor{
+        width: 1000px;
+        margin: 0px auto;
+    }
+}

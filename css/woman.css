@@ -1,0 +1,87 @@
+.img-woman {
+    width: 100%;
+    position: relative;
+}
+
+.img-woman img {
+    width: 100%;
+}
+
+.right-text {
+    background-color: #3b3b3b;
+    padding: 20px;
+    text-align: center;
+}
+
+.right-text h2 {
+    color: white;
+    font-family: Lato-Semibold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.right-text p {
+    color: white;
+    font-family: Lato-Regular;
+    font-size: 15px;
+}
+
+.right-text a {
+    color: white;
+    font-family: Lato-Regular;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .woman {
+        display: flex;
+        height: 200px;
+    }
+
+    .img-woman img {
+        height: 100%;
+    }
+
+    .right-text {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .right-text h2 {
+        font-size: 15px;
+    }
+
+    .right-text p {
+        font-size: 10px;
+    }
+
+    .right-text a {
+        font-size: 10px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .woman {
+        display: flex;
+        height: 100%;
+    }
+
+    .right-text {
+        text-align: unset;
+        margin: 0px auto;
+    }
+
+    .right-text h2 {
+        font-size: 45px;
+    }
+
+    .right-text p {
+        font-size: 30px;
+    }
+
+    .right-text a {
+        font-size: 30px;
+    }
+}

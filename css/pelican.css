@@ -1,0 +1,45 @@
+.img-contenedor{
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.img-contenedor img{
+    width: 100%;
+    display: block;
+}
+
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.banner-text p{
+    font-family: "AvantGardeLT";
+    background-color: rgba(255, 255, 255, 0.8); 
+    text-transform: uppercase;
+    font-size: 10px;
+    color: grey;
+}
+
+.banner-text p:not(:first-child){
+    margin-top: -8px;
+}
+
+@media (min-width: 768px) {
+    .banner-text p{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) {
+    .banner-text p{
+        font-size: 40px;
+    }
+    .img-contenedor{
+        margin-top: unset;
+    }
+}
